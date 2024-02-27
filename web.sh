@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo yum install nginx -y
+echo " hi venky "
 sudo systemctl enable nginx
 sudo systemctl start nginx
 sudo rm -rf /usr/share/nginx/html/*
